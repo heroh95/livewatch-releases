@@ -1,2 +1,20 @@
-# livewatch-releases
-LiveWatch for macOS — Korean and English live captions, keyword alerts, and signed updates. Public downloads.
+# LiveWatch for macOS
+
+한국어·영어 라이브 자막과 관심 단어 알림 앱의 공개 배포 저장소입니다.
+
+## 현재 상태
+
+1.2.0 배포 준비 중입니다. 아직 정식 공개 다운로드는 제공하지 않습니다.
+
+- 누적 자막 오버레이, 크기·불투명도 조절
+- 한영 관심 단어 별칭 및 주제별 인식 힌트
+- HTTPS 업데이트 다운로드, 서명·해시 확인, 실패 시 복구
+- Apple Silicon용 Python·FFmpeg 런타임 포함 준비
+
+Apple 정식 서명·공증, 다른 Mac에서의 실제 실행/방송 검증, 타사 구성 요소의 배포 자료 정리가 남아 있습니다. 검증이 끝난 파일만 공개 Releases에 게시합니다.
+
+## 배포 방식
+
+최초에는 Releases에서 앱을 설치하고, 이후 앱 안의 업데이트 버튼으로 새 버전을 받습니다. ChatGPT 계정은 필요하지 않습니다.
+
+이 저장소에는 공개 배포 파일·배포 안내·서명된 업데이트 채널만 제공합니다. 개발 소스는 별도로 관리합니다.
